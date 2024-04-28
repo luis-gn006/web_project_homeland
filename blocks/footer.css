@@ -13,3 +13,9 @@
     padding-bottom: 3.3%;
   }
 }
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-top: 21.3%;
+    padding-bottom: 8%;
+  }
+}
