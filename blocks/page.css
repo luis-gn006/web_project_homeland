@@ -1,5 +1,5 @@
 .page {
-  background-color: #000;
+  background-color: #2a2c2f;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,6 @@
 }
 @media screen and (min-width: 1280px) {
   body {
-    background-color: #000;
+    background-color: #2a2c2f;
   }
 }
