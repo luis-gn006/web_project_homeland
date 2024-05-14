@@ -8,4 +8,14 @@
 
 .gallery__item {
   margin: 0;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .gallery {
+    padding-top: 8.6%;
+    margin: 0 3.2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+  }
 }
