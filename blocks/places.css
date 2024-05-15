@@ -6,29 +6,25 @@
   padding-bottom: 11.1%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
-    "title1 ."
-    "title2 artist"
+    "title artist"
     "image paragraph1"
     "image paragraph2"
     "link paragraph3";
   gap: 20px 40px;
 }
-.place__title-top {
-  grid-area: title1;
+.place__title {
+  grid-area: title;
   font-size: 72px;
   font-weight: bold;
   margin: 0;
+  max-width: 370px;
 }
-.place__title-bottom {
-  grid-area: title2;
-  font-size: 72px;
-  font-weight: bold;
-  margin: 0;
-}
+
 .place__artists {
   grid-area: artist;
+  align-self: flex-end;
 }
 
 .place__subtitle {
@@ -44,8 +40,8 @@
 .place__image {
   grid-area: image;
   box-shadow: 4px 5px 20px 0px #000;
-  width: 100%;
-  grid-row: 3/5;
+  max-width: 100%;
+  grid-row: 2/4;
 }
 
 .place__paragraph-top {
@@ -68,4 +64,36 @@
 }
 .place__link-image {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding-top: 14.7%;
+    margin: 0 4%;
+  }
+  .place {
+    gap: 28px 25px;
+    padding-bottom: 13.1%;
+  }
+  .place__title {
+    font-size: 42px;
+  }
+  .place__subtitle {
+    font-size: 12px;
+  }
+  .place__artist_paragraph {
+    font-size: 18px;
+  }
+  .place__image {
+    max-width: 300px;
+  }
+  .place__paragraph-top {
+    font-size: 16px;
+  }
+  .place__paragraph-mid {
+    font-size: 16px;
+  }
+  .place__paragraph-bottom {
+    font-size: 16px;
+  }
 }
