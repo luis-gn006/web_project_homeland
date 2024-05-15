@@ -37,8 +37,10 @@
   font-size: 18px;
   margin: 0;
 }
-.place__image {
+.place__link-image {
   grid-area: image;
+}
+.place__image {
   box-shadow: 10px 10px 25px #000;
   max-width: 100%;
   grid-row: 2/4;
@@ -61,12 +63,12 @@
   font-size: 18px;
   margin: 0;
 }
-.place__link {
+.place__link-buton {
   grid-area: link;
   text-decoration: none;
   max-width: 320px;
 }
-.place__link:hover {
+.place__link-buton:hover {
   opacity: 80%;
 }
 .place__link-icon {
