@@ -43,7 +43,9 @@
   max-width: 100%;
   grid-row: 2/4;
 }
-
+.place__image:hover {
+  opacity: 80%;
+}
 .place__paragraph-top {
   grid-area: paragraph1;
   font-size: 18px;
@@ -63,6 +65,9 @@
   grid-area: link;
   text-decoration: none;
   max-width: 320px;
+}
+.place__link:hover {
+  opacity: 80%;
 }
 .place__link-icon {
   padding: 18px 30px;
@@ -121,7 +126,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .place__artists {
     align-self: flex-start;
@@ -133,7 +137,7 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    padding-top: 9.1%;
+    padding-top: 25.7%;
     margin: 0;
   }
   .place {
@@ -167,13 +171,14 @@
     font-size: 16px;
     margin: 0 6.6%;
   }
-  .place__link-icon {
-    padding: 15px 0px;
+  .place__link {
+    max-width: 100%;
     margin: 0 6.6%;
   }
-  .place__link {
-    max-width: 2350px;
+  .place__link-icon {
+    padding: 15px 8px;
   }
+
   .place__link-paragraph {
     font-size: 14px;
   }
