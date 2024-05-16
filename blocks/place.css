@@ -59,19 +59,20 @@
   font-size: 18px;
   margin: 0;
 }
-.place__link-buton {
+.place__link {
   grid-area: link;
   text-decoration: none;
   max-width: 320px;
 }
-.place__link-buton:hover {
-  opacity: 80%;
-}
-.place__link-icon {
+
+.place__link-button {
   padding: 18px 30px;
   background-image: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
   border-radius: 5px;
   box-shadow: 5px 5px 10px #000;
+}
+.place__link-button:hover {
+  opacity: 80%;
 }
 .place__link-paragraph {
   color: #fff;
@@ -107,7 +108,7 @@
   .place__paragraph-bottom {
     font-size: 16px;
   }
-  .place__link-icon {
+  .place__link-button {
     padding: 18px 20px;
   }
   .place__link {
@@ -165,7 +166,7 @@
     max-width: 100%;
     margin: 0 6.6%;
   }
-  .place__link-icon {
+  .place__link-button {
     padding: 15px 8px;
   }
 
