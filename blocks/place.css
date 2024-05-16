@@ -29,7 +29,7 @@
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-.place__artist_paragraph {
+.place__artist-paragraph {
   font-size: 18px;
   margin: 0;
 }
@@ -92,7 +92,7 @@
   .place__subtitle {
     font-size: 12px;
   }
-  .place__artist_paragraph {
+  .place__artist-paragraph {
     font-size: 18px;
   }
   .place__image {
