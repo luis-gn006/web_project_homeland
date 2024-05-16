@@ -7,7 +7,7 @@
     "title artist"
     "image paragraphs"
     "link .";
-  gap: 20px 40px;
+  gap: 48px 40px;
 }
 .place__title {
   grid-area: title;
@@ -45,6 +45,9 @@
 }
 .place__paragraphs {
   grid-area: paragraphs;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
 }
 .place__paragraph {
   font-size: 18px;
@@ -76,7 +79,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    gap: 28px 25px;
+    gap: 48px 28px;
     padding-bottom: 13.1%;
   }
   .place__title {
@@ -147,7 +150,7 @@
     margin: 0 6.6%;
   }
   .place__link-button {
-    padding: 15px 8px;
+    padding: 14px 7px;
   }
 
   .place__link-paragraph {
