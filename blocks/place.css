@@ -65,16 +65,12 @@
   background-image: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
   border-radius: 5px;
   box-shadow: 5px 5px 10px #000;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
 }
 .place__link-button:hover {
   opacity: 80%;
-}
-.place__link-paragraph {
-  color: #fff;
-  text-align: center;
-  margin: 0 auto;
-  font-weight: 600;
-  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
@@ -151,9 +147,6 @@
   }
   .place__link-button {
     padding: 14px 7px;
-  }
-
-  .place__link-paragraph {
     font-size: 14px;
   }
 }
