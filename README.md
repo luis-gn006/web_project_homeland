@@ -10,7 +10,7 @@
 
 El proyecto fue realizado en VSS (Visual Studio Code)
 
-Se espera implementar en un futuro algunas funciones con JS en el futuro.
+Se espera implementar en un futuro algunas funciones con JS.
 
 Link de Github pages para visualizar mi pagina:
 https://luis-gn006.github.io/web_project_homeland/index.html
